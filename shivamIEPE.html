@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form align="center">
+            <fieldset>
+                <legend><b>REGISTRATION FORM</b></legend>
+                <fieldset>
+                    <legend>Student Details</legend>
+                    <lable for=" name">NAME</lable>
+                   <input type="text" id="Name" name="Name" required><br>
+                    <label for="Email">Email:</label>
+                    <input type="email" name="Email" id="Email" required><br>
+                    <label for="Pass">Password:</label>
+                    <input type="password" name="Pass" id="Pass" required><br>
+                    <label for="mob">Mobile No.:</label>
+                    <input type="number" name="mob" id="mob" required><br>
+                    <label for="Gender">Gender:</label><br>
+                    <input type="radio" name="Gender" id="male" value="Male">
+                    <label for="Male">Male</label><br>
+                    <input type="radio" name="Gender" id="female" value="Female">
+                    <label for="Female">Female</label><br>
+                    <input type="radio" name="Gender" id="not" value="Not">
+                    <label for="Not">Prefer not to say</label><br>
+                    <label for="DOB">Date of Birth</label>
+                    <input type="date" name="DOB" id="DOB"><br>
+                    <label for="Adhhar">Adhhar Card No.:</label>
+                    <input type="number" name="Adhhar" id="Adhhar"><br>
+                    <label for="padd">Permanant Address:</label>
+                    <textarea name="address" id="padd" cols="30" rows="2"></textarea><br>
+                    <label for="cadd">Current Address:</label>
+                    <textarea name="address" id="cadd" cols="30" rows="2"></textarea><br>
+                    <label for="nation">Nationality:</label>
+                    <input type="text" name="nation" id="nation"><br>
+                </fieldset>
+                <input type="submit" value="submit">
+                
+                   
+        </form>
+    </div>
+</body>
+</html>
